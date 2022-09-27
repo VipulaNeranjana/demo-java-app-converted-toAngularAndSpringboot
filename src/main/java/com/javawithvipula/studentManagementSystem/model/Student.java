@@ -15,6 +15,7 @@ public class Student implements Serializable {
     private String email;
     private String phoneNumber;
     private String imageURL;
+    @Column(nullable = false, updatable = false)
     private String studentNumber;
 
     public Student() {
