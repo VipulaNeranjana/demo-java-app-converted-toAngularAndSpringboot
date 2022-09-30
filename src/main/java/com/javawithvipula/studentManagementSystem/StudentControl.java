@@ -46,4 +46,6 @@ public class StudentControl {
         studentService.deleteStudent(id);
         return new ResponseEntity<>( HttpStatus.OK);
     }
+
+
 }
